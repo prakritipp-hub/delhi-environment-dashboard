@@ -1,7 +1,6 @@
-# ============================================================
+
 # Delhi Environmental Health Economics Dashboard
-# Professional Light Edition — Inter & Roboto Stack
-# ============================================================
+
 
 library(shiny)
 library(ggplot2)
@@ -11,9 +10,9 @@ library(DT)
 library(scales)
 library(tidyr)
 
-# ============================================================
+
 # DATA DEFINITIONS
-# ============================================================
+
 
 districts <- c("All Delhi", "Central Delhi", "East Delhi", "New Delhi", "North Delhi", "North-East Delhi", "North-West Delhi", "Shahdara", "South Delhi", "South-East Delhi", "South-West Delhi", "West Delhi")
 seasons <- c("Summer (Heat Stress)", "Post-Monsoon (High AQI)", "Winter (Smog Season)", "Monsoon (Baseline)")
